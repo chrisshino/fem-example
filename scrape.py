@@ -8,6 +8,7 @@ from requests_html import HTML
 
 BASE_DIR = os.path.dirname(__file__)
 
+New_func = 'hello friends'
 
 def url_to_txt(url, filename="world.html", save=False):
     r = requests.get(url)
